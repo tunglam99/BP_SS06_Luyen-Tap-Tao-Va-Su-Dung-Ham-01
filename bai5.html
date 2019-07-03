@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr1 = ['Polaris', 'Aldebaran', 'Deneb', 'Vega', 'Altair', 'Dubhe', 'Regulus'];
+    let arr2 = ['Ursa Minor', 'Tarurus', 'Cygnus', 'Lyra', 'Aquila', 'Ursa Major', 'Leo'];
+    let i;
+    v = prompt('Nhập tên ngôi sao cần tìm');
+    function check() {
+        for (i = 0; i < arr1.length; i++) {
+            if (arr1[i] === v) {
+                return true;
+            }
+        }
+        return false;
+    }
+    if (check()){
+        document.write('Tên chòm sao là: '+arr2[i]);
+    }
+</script>
+</body>
+</html>
